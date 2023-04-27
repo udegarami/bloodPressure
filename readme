@@ -1,0 +1,63 @@
+Blood Pressure Tracker
+
+This is a blood pressure tracker application built with Streamlit, Pandas, and Matplotlib. It allows users to input their blood pressure readings, along with optional weight, pulse, and feeling information. The application displays the recorded data in tabular format and visualizes it using line and box plots.
+Features
+
+    Add blood pressure readings with optional weight, pulse, and feeling information
+    Visualize blood pressure data over time using line and box plots
+    Display the recorded data in tabular format
+
+Installation
+
+    Install Python 3.7 or higher
+
+    Clone this repository:
+
+    $git clone https://github.com/yourusername/blood-pressure-tracker.git
+
+Change to the application directory:
+
+    $cd blood-pressure-tracker
+
+Create a virtual environment:
+
+    §python -m venv venv
+
+Activate the virtual environment:
+
+    Windows:
+
+    $venv\Scripts\activate
+
+macOS/Linux:
+
+    $source venv/bin/activate
+
+Install the required packages:
+
+    $pip install -r requirements.txt
+
+Run the application:
+
+    $streamlit run bloodpressure.py
+
+Usage
+
+    Open your web browser and visit the Streamlit app at http://localhost:8501
+    Input your blood pressure readings (systolic and diastolic) along with optional weight, pulse, and feeling information in the sidebar
+    Click "Submit" to save the data
+    View the recorded data in the main application window, where it will be displayed in both tabular format and visualized using line and box plots
+
+Dependencies
+
+    Streamlit
+    Pandas
+    Matplotlib
+    Seaborn
+
+Contributing
+
+Please feel free to submit issues, fork the repository and send pull requests!
+License
+
+This project is licensed under the terms of the MIT license.
